@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.avatar {
+    background: rgb(30, 55, 125);
+    color: #fff;
+    padding: 20px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+}
+
+.avatar img {
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.content {
+    margin-top: 5px;
+    padding-top: 20px;
+    font-size: medium;
+    display: flex;
+    border-right: solid 2px;
+    /* text-align: center; */
+    /* align-items: center; */
+}
+
+.content i {
+    margin-right: 10px;
+    margin-top: 5px;
+}
