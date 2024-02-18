@@ -4,33 +4,51 @@ body {
     padding: 0;
     line-height: 1.6;
 }
-.avatar {
-    background: rgb(30, 55, 125);
+
+.avatar{
+    border-bottom: solid 2px;
+}
+
+.header {
+    background: #479ce6;
     color: #fff;
     padding: 20px;
     /* text-align: center; */
     display: flex;
     align-items: center;
+    border-bottom: solid 2px;
 }
 
-.avatar img {
+.header img {
     width: 200px;
     height: auto;
     border-radius: 100%;
     margin-left: 200px;
     margin-right: 200px;
 }
+
+header {
+    border-bottom: solid 2px;
+}
+
+/* .container {
+    border-bottom: solid 2px;
+} */
+
 .content {
     margin-top: 5px;
     padding-top: 20px;
-    font-size: medium;
+    font-size: 18px;
     display: flex;
-    border-right: solid 2px;
-    /* text-align: center; */
-    /* align-items: center; */
 }
 
 .content i {
     margin-right: 10px;
     margin-top: 5px;
+}
+
+.target {
+    padding: 20px 50px;
+    border-bottom: solid 2px;
+    font-size: 18px;
 }
